@@ -1,12 +1,16 @@
-# Sitemaps
+# Sitemap
 
-A library for building sitemaps, to be written to various formats; most notably as an XML sitemap.
+A PHP 7.1+ library for building sitemaps, to be written to various formats; most notably as an XML sitemap.
 
 ## Installation
+
+Install the package using Composer:
 
 ```
 composer require lukaswhite/sitemaps
 ```
+
+> This package requires PHP version 7.1 or greater
 
 ## Creating a Sitemap
 
