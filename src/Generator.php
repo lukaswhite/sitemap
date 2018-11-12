@@ -1,10 +1,6 @@
 <?php
 
-namespace Lukaswhite\XmlSitemaps;
-
-use Thepixeldeveloper\Sitemap\Urlset;
-use Thepixeldeveloper\Sitemap\Url;
-use Thepixeldeveloper\Sitemap\Drivers\XmlWriterDriver;
+namespace Lukaswhite\Sitemap;
 
 /**
  * Class Generator
@@ -21,7 +17,7 @@ use Thepixeldeveloper\Sitemap\Drivers\XmlWriterDriver;
  *
  * Then, when a sitemap is being generated, it simply combines the pages from all of its sources.
  *
- * @package Jobyay\Core\Services\Seo\Sitemaps
+ * @package Lukaswhite\Sitemap
  */
 class Generator
 {
@@ -66,35 +62,5 @@ class Generator
             }
         }
         return $this->pages;
-    }
-
-    /**
-     * Get the sitemap, as XML.
-     *
-     * @return string
-     */
-    public function getXml( )
-    {
-        $urlset = new Urlset();
-
-        $pages = $this->getData( );
-
-        foreach( $pages as $page ) {
-            $url = new Url( $page->getUrl( ) );
-            $url->setLastMod( $page->getLastModified( ) );
-            if ( $page->getChangeFreq( ) ) {
-                $url->setChangeFreq( $page->getChangeFreq( ) );
-            }
-            $url->setPriority( $page->getPriority( ) );
-
-            $urlset->add($url);
-
-        }
-
-        $driver = new XmlWriterDriver();
-
-        $urlset->accept( $driver );
-
-        return  $driver->output( );
     }
 }

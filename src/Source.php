@@ -7,7 +7,7 @@ namespace Lukaswhite\Sitemap;
  *
  * This contract (interface) defines a source of data for the sitemap.
  *
- * @package Jobyay\Core\Services\Seo\Sitemaps
+ * @package Lukaswhite\Sitemap
  */
 interface Source
 {
