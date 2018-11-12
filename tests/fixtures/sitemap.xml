@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://example.com/styles.xsl"?>
+<!--Comment 1-->
+<!--Comment 2-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"><url><loc>http://www.example.com</loc><lastmod>2018-11-20T10:20:00+00:00</lastmod><priority>1</priority><changefreq>monthly</changefreq><xthml:link rel="alternate" href="http://www.example.com/de" hreflang="de"/><xthml:link rel="alternate" href="http://www.example.com/es" hreflang="es"/><image:image><image:loc>http://www.example.com/image1.jpg</image:loc><image:caption>Test image caption</image:caption><image:title>Test image title</image:title><image:geo_location>Earth</image:geo_location><image:license>http://www.example.com/license.html</image:license></image:image></url><url><loc>http://www.example.com/about</loc><lastmod>2018-11-15T09:15:12+00:00</lastmod><priority>0.8</priority></url></urlset>

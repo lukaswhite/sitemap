@@ -1,0 +1,21 @@
+{
+    "name": "lukaswhite/sitemap",
+    "description": "A PHP library for managing and generating sitemaps",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lukas White",
+            "email": "hello@lukaswhite.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "7.0",
+        "phpunit/php-code-coverage": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lukaswhite\\Sitemap\\": "src/"
+        }
+    }
+}
