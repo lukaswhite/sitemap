@@ -2,6 +2,8 @@
 
 A PHP 7.1+ library for building sitemaps, to be written to various formats; most notably as an XML sitemap.
 
+[![CircleCI](https://circleci.com/gh/lukaswhite/sitemap.svg?style=svg)](https://circleci.com/gh/lukaswhite/sitemap)
+
 ## Installation
 
 Install the package using Composer:
