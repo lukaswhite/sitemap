@@ -2,7 +2,7 @@ version: 2
 
 jobs:
   build:
-    working_directory: /uk-postcode
+    working_directory: /sitemap
     docker:
       - image: php:7.1-apache
         environment:
